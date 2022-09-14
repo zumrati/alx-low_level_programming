@@ -1,13 +1,13 @@
-In main.h
+in main.h
 
 int_putchar(char);
 
-In 0-putchar
+in 0-putchar
 
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - prints alphabet in lower case
  *
  * Return: Always 0 (success)
  */
