@@ -3,47 +3,36 @@
 #include <stdlib.h>
 
 #include <time.h>
-
 /**
- * main - Entry point
+ * main - Prints random number variable
  *
- *
- * Return: Always 0 (Success)
- *
+ * Return:Always (Successful)
  */
-
 int main(void)
-
-{
-	int n, s;
-
+	char last[] = "Last digit of";
 
 	srand(time(0));
+	n = rand() - RAND_MAX / 2
+	printf("%s %d is %d and is",last,n, n % 10);
+	if(n % 10 > 5)
+{
+	{
+		printf("greater than 5\n"); 
+	}
 
-	/* your code goes there */
-
-	s = n % 10;
-	if (s > 5)
+	else if (n % 10 == 0)
 
 	{
-		printf("Last digit of %d is %d is greater than 5\n", n, s);
+		printf("0\n");
 
 	}
 
-	else if (s == 0)
+	else
 
 	{
-		printf("Last digit of %d is %d and is 0\n", n, s);
+		prinf("less than 6 and not 0\n");
 
 	}
-
-	else if (s < 6 && s != 0)
-
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, s);
-
-	}
-
+	
 	return (0);
 }
-
