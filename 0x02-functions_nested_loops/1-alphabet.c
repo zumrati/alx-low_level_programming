@@ -10,7 +10,7 @@
  * Return: Always 0 (Success)
  *
  *
- * Return: no return
+ *
  */
 void print_alphabet(void)
 {
