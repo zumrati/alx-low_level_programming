@@ -5,9 +5,9 @@
  * print_alphabet - prints alphabet in lower case
  *
  *
- * Description: a function that prints the alphabet in lower case
  *
- * Return: 0 (Success)
+ *
+ * Return: Always 0 (Success)
  *
  *
  * Return: no return
