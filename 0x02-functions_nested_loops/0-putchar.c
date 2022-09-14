@@ -1,23 +1,28 @@
 In main.h
 
-int _putchar(char);
-
+int_putchar(char);
 
 In 0-putchar
 
 #include "main.h"
 
 /**
- *main - Entry point
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
 int _putchar(char)
 {
+
 	putchar(');
-	_pitchar('p');
+	putchar('p');
+	putchar('u');
+	Putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-	onward
-	return(0);
+	Return(0)
 }
-
