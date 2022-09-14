@@ -1,24 +1,30 @@
 #include "main.h"
 
-#include <stdio.h>
-
 /**
- * print_alphabet - prints alphabet in lower case
+ * main - Prints _putchar
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
+	_putchar('_');
 
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	Putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+		_putchar('p');
 
-	Return(0)
+			_putchar('u');
+
+				_putchar('t');
+
+					_putchar('c');
+
+						_putchar('h');
+
+							_putchar('a');
+
+								_putchar('r');
+
+									_putchar('\n');
+
+									return (0);
 }
