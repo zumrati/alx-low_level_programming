@@ -1,20 +1,16 @@
-in main.h
-
-int_putchar(char);
-
-in 0-putchar
-
 #include "main.h"
+
+#include <stdio.h>
 
 /**
  * print_alphabet - prints alphabet in lower case
  *
  * Return: Always 0 (success)
  */
-int _putchar(char)
+int main(void)
 {
 
-	putchar(');
+	putchar('_');
 	putchar('p');
 	putchar('u');
 	Putchar('t');
